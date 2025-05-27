@@ -29,26 +29,15 @@ mnzguruapi/
 ├── manifest.json           # Configuração do módulo
 ├── Module.php             # Classe principal do módulo
 ├── actions/
-│   └── ZapixView.php      # Controlador da view
+│   └── Mnzguruapi.php      # Controlador da view
 ├── views/
 │   └── mnzguruapi.view.php     # Template da interface
 ├── assets/
 │   ├── css/
 │   │   ├── mnzguruapi-module.css      # Estilos específicos do módulo
 │   │   ├── style.css             # Estilos originais
-│   │   └── bootstrap/
-│   │       └── bootstrap.min.css
 │   └── js/
 │       ├── mnzguruapi-module.js       # JavaScript específico do módulo
-│       ├── js.js                 # Lógica principal
-│       ├── jsonrpc.js           # Cliente JSON-RPC
-│       ├── jsonlint.js          # Validador JSON
-│       ├── ace.js               # Editor de código
-│       ├── mode-json.js         # Modo JSON para ACE
-│       ├── theme-github.js      # Tema GitHub para ACE
-│       ├── bootstrap.min.js     # Bootstrap JavaScript
-│       ├── typeahead.bundle.min.js # Autocomplete
-│       └── clipboard.min.js     # Funcionalidade de copiar
 └── README-MODULE.md        # Este arquivo
 ```
 
@@ -120,7 +109,7 @@ Para modificar o módulo:
 
 ## Compatibilidade
 
-- **Zabbix**: 6.0+
+- **Zabbix**: 7.0+
 - **PHP**: 7.4+
 - **Navegadores**: Chrome, Firefox, Safari, Edge (versões modernas)
 
